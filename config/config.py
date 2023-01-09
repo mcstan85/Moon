@@ -25,7 +25,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "180")
+    getenv("DURATION_LIMIT", "380")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -132,7 +132,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Yukkilogs.txt"
+LOG_FILE_NAME = "Marklogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
@@ -143,7 +143,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/beade7c94ea401312b17e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b2ecd1f9a3d428683c4b9.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
